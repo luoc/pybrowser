@@ -22,6 +22,8 @@ class HTTPSBrowser(httplib.HTTPSConnection):
     params = ""
     def addheader(self):
         pass
+    def handlecookies(self):
+        pass
     pass
 
 
